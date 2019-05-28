@@ -20,6 +20,7 @@ footer{}
     width: 80%;
     float: left;
     padding: 15px 0;
+    position: relative;
 }
 .footermenu ul{
     list-style: none;
@@ -35,7 +36,7 @@ footer{}
 .footermenu li a img{}
 span{
     width: 100%;
-    height: 5px;
+    height: 4px;
     background: #dedede;
     overflow: hidden;
     display: block;
@@ -78,9 +79,11 @@ span{
     font-size: 20px;
     font-weight: 700;
     /* padding-bottom: 20px; */
+    padding: 0px 100px;
 }
 .article p{
     padding: 0 0px 20px 0;
+    color: #6b5f5f;
 }
 .browser{
     background: green;
@@ -90,14 +93,14 @@ span{
     font-size: 23px;
     text-decoration: none;
     border: 1px solid #15a4fa;
-    padding: 18px 35px;
+    padding: 13px 16px;
     display: inline-block;
     margin-top: 30px;
-    border-radius: 5px;
+    border-radius: 34px;
     transition: all 0.4s;
 }
 .video-section{
-    background: gray;
+    background: #EFEFEF;
     padding: 30px 0;
 }
 .videosection{
@@ -114,12 +117,14 @@ span{
 .vidcontent h2{
     text-align: center;
     font-size: 25px;
+    color: #6b5f5f;
 }
 .vidcontent p{
     padding: 21px;
+    color: #6b5f5f;
 }
 .findout-section{
-    background: beige;
+    background: #31302E;
     padding: 50px;
     padding-top: 0;
 }
@@ -134,25 +139,25 @@ span{
     font-size: 35px;
     width: 50%;
     display: inline-block;
+    color: white;
+    padding: 18px 0;
 }
 .find{
-    float: left;
-    font-size: 23px;
-    text-decoration: none;
     background: #51e651;
-    color: gainsboro;
     font-size: 18px;
-    color: #ffffff;
+    color: white;
     text-decoration: none;
     border: 1px solid #15a4fa;
     padding: 18px 35px;
     display: inline-block;
-    margin-top: 30px;
-    border-radius: 5px;
+    border-radius: 62px;
     transition: all 0.4s;
+    float: right;
+    margin-top: 13px;
 }
 .copyrightsection{
     padding: 15px 0;
+    color: #EFEFEF;
 }
 .leftsection{}
 .leftsection h4{
@@ -183,7 +188,22 @@ span{
     font-size: 20px;
     color: #c6cdd4fc;
 }
-.curser{
-    position: relative;
+.Curser{
+    
+position: absolute;
+    
+top: 50%;
+    
+color: black;
+    
+width: 100px;
+    
+height: 30px;
+    
+left: 69%;
+    
+display: list-item;
+    
+float: left;
 }
-.curserimg{background-image: url(../images/hand.png);width: 100%;height: 33px;position: absolute;background-repeat: no-repeat;background-position: top;left: 26%;top: 5%;);}
+.
